@@ -1,0 +1,8 @@
+# .env
+service1/.production.env
+service2/.production.env
+client/.production.env
+#node_modules
+service1/node_modules
+service2/node_modules
+client/node_modules

@@ -1,0 +1,14 @@
+# Will change this file
+
+services:
+  app:
+    image: ghcr.io/yourusername/yourapp:latest
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./app:/usr/src/app
+    networks:
+      - app-network
+
